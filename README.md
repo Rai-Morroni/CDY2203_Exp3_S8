@@ -4,7 +4,7 @@ Este repositorio contiene la solución desarrollada para la asignatura de **Segu
 
 ## 🚀 Contexto del Proyecto
 
-[cite_start]El objetivo principal es asegurar la robustez de una aplicación web compuesta por un ecosistema de microservicios y vistas, garantizando que el código sea seguro y altamente probado[cite: 1298].
+El objetivo principal es asegurar la robustez de una aplicación web compuesta por un ecosistema de microservicios y vistas, garantizando que el código sea seguro y altamente probado
 
 - **Estudiante:** Rainiero Morroni
 - **Institución:** Duoc UC
@@ -13,28 +13,28 @@ Este repositorio contiene la solución desarrollada para la asignatura de **Segu
 ## 🛠️ Tecnologías Utilizadas
 
 ### Backend
-- [cite_start]**Framework:** Spring Boot 3.3.5 [cite: 1300]
-- [cite_start]**Seguridad:** Spring Security con autenticación basada en **JWT (JSON Web Token)**[cite: 1302, 1303].
-- [cite_start]**Persistencia:** Spring Data JPA con MySQL[cite: 1300].
+- **Framework:** Spring Boot 3.3.5
+- **Seguridad:** Spring Security con autenticación basada en **JWT (JSON Web Token)**
+- **Persistencia:** Spring Data JPA con MySQL
 - **Documentación:** Springdoc OpenAPI / Swagger.
 
 ### Frontend
-- [cite_start]**Framework:** Spring Boot con **Thymeleaf** para el motor de plantillas[cite: 1307].
-- [cite_start]**Estilos:** CSS3 funcional[cite: 1310].
+- **Framework:** Spring Boot con **Thymeleaf** para el motor de plantillas
+- **Estilos:** CSS3 funcional
 - **Comunicación:** RestTemplate para consumo de APIs protegidas.
 
 ### Infraestructura y Calidad
-- [cite_start]**Contenedores:** Docker para el despliegue de la base de datos MySQL 8.0[cite: 1324].
-- [cite_start]**Pruebas:** JUnit 5 y MockMVC[cite: 1380].
-- [cite_start]**Cobertura:** **JaCoCo** (Java Code Coverage)[cite: 1376].
+- **Contenedores:** Docker para el despliegue de la base de datos MySQL 8.0
+- **Pruebas:** JUnit 5 y MockMVC
+- **Cobertura:** **JaCoCo** (Java Code Coverage)
 
 ## 📊 Aseguramiento de Calidad (Code Coverage)
 
-[cite_start]Se ha implementado una estrategia de pruebas unitarias y de integración siguiendo el patrón **Arrange-Act-Assert**[cite: 1380]. [cite_start]Se configuró JaCoCo con una regla de cumplimiento mínima del **60%**[cite: 1379].
+Se ha implementado una estrategia de pruebas unitarias y de integración siguiendo el patrón **Arrange-Act-Assert**. Se configuró JaCoCo con una regla de cumplimiento mínima del **60%**.
 
 ### Resultados Finales:
-- [cite_start]**Cobertura Backend:** **65%** [cite: 1395]
-- [cite_start]**Cobertura Frontend:** **63%** [cite: 1412]
+- **Cobertura Backend:** **65%**
+- **Cobertura Frontend:** **63%**
 
 Los reportes detallados pueden ser generados localmente en la carpeta `/target/site/jacoco/index.html`.
 
