@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.model;
 
 public enum InvoiceLineItemType {
     SERVICE,

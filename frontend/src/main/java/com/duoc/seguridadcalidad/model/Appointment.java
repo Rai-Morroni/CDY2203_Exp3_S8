@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

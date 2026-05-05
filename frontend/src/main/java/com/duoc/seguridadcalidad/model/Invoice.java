@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

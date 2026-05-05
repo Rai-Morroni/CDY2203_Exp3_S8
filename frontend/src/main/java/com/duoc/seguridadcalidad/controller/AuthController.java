@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.ResourceAccessException;
+
+import com.duoc.seguridadcalidad.dto.AuthRequest;
+import com.duoc.seguridadcalidad.dto.AuthResponse;
+import com.duoc.seguridadcalidad.service.BackendService;
+import com.duoc.seguridadcalidad.service.JwtCookieService;
 
 import jakarta.servlet.http.HttpServletRequest;
 

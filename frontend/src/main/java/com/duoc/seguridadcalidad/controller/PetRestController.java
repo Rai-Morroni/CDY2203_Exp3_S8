@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.duoc.seguridadcalidad.service.BackendService;
+import com.duoc.seguridadcalidad.service.JwtCookieService;
 
 import java.util.List;
 import java.util.Map;

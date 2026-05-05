@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.dto;
 
 public class AuthRequest {
     private String username;

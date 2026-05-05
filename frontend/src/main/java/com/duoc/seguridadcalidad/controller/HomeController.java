@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.controller;
 
 import org.springframework.stereotype.Controller; 
 import org.springframework.ui.Model; 

@@ -1,9 +1,11 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.duoc.seguridadcalidad.model.InvoiceLineItem;
 
 public class InvoiceCreateRequest {
     private LocalDate issueDate;

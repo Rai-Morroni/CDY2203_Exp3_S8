@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.dto;
 
 public class AuthResponse {
     private final String token;

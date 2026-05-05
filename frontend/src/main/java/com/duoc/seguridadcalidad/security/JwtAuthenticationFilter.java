@@ -1,4 +1,4 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

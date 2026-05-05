@@ -1,4 +1,5 @@
-package com.duoc.seguridadcalidad;
+
+package com.duoc.seguridadcalidad.security;
 
 
 import org.springframework.context.annotation.Bean;

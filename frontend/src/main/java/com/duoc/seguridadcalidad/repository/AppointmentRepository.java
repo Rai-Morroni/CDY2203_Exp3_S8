@@ -1,6 +1,8 @@
-package com.duoc.seguridadcalidad;
+package com.duoc.seguridadcalidad.repository;
 
 import org.springframework.stereotype.Component;
+
+import com.duoc.seguridadcalidad.model.Appointment;
 
 import java.util.ArrayList;
 import java.util.Collections;
